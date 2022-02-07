@@ -59,8 +59,8 @@ $ npm run invalid-client
 openssl req \
 	-x509 \
 	-newkey rsa:4096 \
-	-keyout server/server_key.pem \
-	-out server/server_cert.pem \
+	-keyout server/keys/server_key.pem \
+	-out server/keys/server_cert.pem \
 	-nodes \
 	-days 365 \
 	-subj "/CN=localhost/O=Client\ Certificate\ Demo"
